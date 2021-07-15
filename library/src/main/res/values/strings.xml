@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="previous">Ir para o anterior</string>
+  <string name="next">Ir para a próxima</string>
+  <string name="calendar">Calendário</string>
+</resources>

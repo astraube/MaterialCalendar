@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Date Time Selector</string>
+
+    <string name="cancel">Cancelar</string>
+    <string name="done">Salvar</string>
+    <string name="ok">OK</string>
+
+    <string name="period_tab_title_start">Inicio</string>
+    <string name="period_tab_title_end">Fim</string>
+    <string name="period_invalid">Período inválido</string>
+    <string name="period_selected">Período selecionado</string>
+    <string name="period_start_end">%1$s à %2$s</string>
+    <string name="period_from_is_after_to">Data e hora inicial não pode ser superior a data e hora final.</string>
+
+</resources>

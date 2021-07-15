@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.astraube.materialcalendar.TimePickerView
+        android:id="@+id/timerPickerView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:timePickerMode="spinner" />
+
+    <com.astraube.materialcalendar.MaterialCalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mcv_showOtherDates="all"
+        app:mcv_selectionColor="@color/date_picker_selection_color"
+        app:mcv_tileSize="@dimen/tile_size_medium"
+        app:mcv_allowClickDaysOutsideCurrentMonth="false" />
+
+</LinearLayout>
